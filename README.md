@@ -14,3 +14,25 @@ Backend of techspardha.org 2017, Annual Techno-Managerial Fest of NIT Kurukshetr
 10. config.js - configurations and credentials
 
 Reference: https://www.terlici.com/2014/08/25/best-practices-express-structure.html
+
+###### Code conventions
+1. Use camelCase for identifier names (variables and functions).
+    - All names start with a letter.
+2. Always put spaces around operators ( = + - * / ), and after commas:
+3. Always use 4 spaces for indentation of code blocks:
+    - Do not use tabs (tabulators) for indentation. Different editors interpret tabs differently.
+4. Always end a simple statement with a semicolon.
+5. General rules for complex (compound) statements:
+    - Put the opening bracket at the end of the first line.
+    - Use one space before the opening bracket.
+    - Put the closing bracket on a new line, without leading spaces.
+    - Do not end a complex statement with a semicolon.
+6. General rules for object definitions:
+    - Place the opening bracket on the same line as the object name.
+    - Use colon plus one space between each property and its value.
+    - Use quotes around string values, not around numeric values. (First choice: single quote)
+    - Do not add a comma after the last property-value pair.
+    - Place the closing bracket on a new line, without leading spaces.
+    - Always end an object definition with a semicolon.
+
+Reference: http://www.w3schools.com/js/js_conventions.asp

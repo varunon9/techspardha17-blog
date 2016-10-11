@@ -5,8 +5,6 @@ var express = require('express'),
     app = express(),
     bodyParser = require('body-parser');
 
-app.set('config', require('./config'));
-
 app.use(bodyParser.json({
     limit: '2mb'
 })); // support json encoded bodies
