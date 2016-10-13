@@ -26,9 +26,14 @@ var server = app.listen(3000, '0.0.0.0', function() {
 });
 
 //middlewares goes here
-//app.use(require('./middlewares'));
+app.use('/auth', require('./middlewares/auth'));
 //routes goes here
-//app.use(require('./controllers'));
+app.get('/', function(req, res) {
+    res.render('index', {
+        user: 'Guest'
+    });
+});
+require('./controllers/admin')(app);
 
 //catch 404 and forward to error handler
 app.use(function(req, res, next) {

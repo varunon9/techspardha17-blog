@@ -1,5 +1,5 @@
-# techspardha17-backend
-Backend of techspardha.org 2017, Annual Techno-Managerial Fest of NIT Kurukshetra
+# Techspardha 2017 Blog | techspardha.org
+Source code for techspardha.org (blog) 2017, Annual Techno-Managerial Fest of NIT Kurukshetra
 
 ###### Folder Structure:
 1. controllers/ – defines app routes and their logic
